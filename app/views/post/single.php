@@ -1,0 +1,1 @@
+Single Post with a ID of <?php echo $id ?>
