@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="Laravel Simreg">
-    <serverData>
-      <paths name="Laravel Simreg">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="laravel-simreg" />
-          </mappings>
-        </serverdata>
-      </paths>
-    </serverData>
-  </component>
+  <component name="PublishConfigData" serverName="Laravel Simreg" />
 </project>
 

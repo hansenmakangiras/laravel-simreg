@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'db_barombong',
+			'database'  => 'db_pmk',
 			'username'  => 'hansenmakangiras',
 			'password'  => 'BlackID85',
 			'charset'   => 'utf8',

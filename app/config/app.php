@@ -78,7 +78,7 @@ return array(
 	|
 	*/
 
-	'key' => 'YourSecretKey!!!',
+	'key' => 'lkjsdfSf$fsvl@dfdf%',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -121,7 +121,18 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-
+        'Way\Generators\GeneratorsServiceProvider',
+        'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+        'Zizaco\Confide\ServiceProvider',
+        'Zizaco\Entrust\EntrustServiceProvider',
+        'Chumper\Datatable\DatatableServiceProvider',
+        'Cviebrock\EloquentSluggable\SluggableServiceProvider',
+        'Barryvdh\DomPDF\ServiceProvider',
+        'Greggilbert\Recaptcha\RecaptchaServiceProvider',
+        'Maatwebsite\Excel\ExcelServiceProvider',
+        'DaveJamesMiller\Breadcrumbs\ServiceProvider',
+        'Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider',
+        'Orangehill\Iseed\IseedServiceProvider',
 	),
 
 	/*
@@ -188,6 +199,12 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
+        'Confide'           => 'Zizaco\Confide\Facade',
+        'Entrust'           => 'Zizaco\Entrust\EntrustFacade',
+        'Datatable' => 'Chumper\Datatable\Facades\DatatableFacade',
+        'Excel' => 'Maatwebsite\Excel\Facades\Excel',
+        'PDF' => 'Barryvdh\DomPDF\Facade',
+        'Breadcrumbs' => 'DaveJamesMiller\Breadcrumbs\Facade',
 
 	),
 

@@ -5,8 +5,23 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "4.2.*"
+		"laravel/framework": "4.2.*",
+		"barryvdh/laravel-ide-helper": "~1.11",
+		"zizaco/confide": "~4.0",
+		"zizaco/entrust": "~1.3",
+        "chumper/datatable": "2.*",
+		"cviebrock/eloquent-sluggable": "~2.0",
+        "barryvdh/laravel-dompdf": "0.4.*",
+        "greggilbert/recaptcha": "dev-master",
+        "maatwebsite/excel": "~1.2.1",
+		"davejamesmiller/laravel-breadcrumbs": "~2.3.0",
+        "xethron/migrations-generator": "dev-master",
+        "orangehill/iseed": "dev-master",
+        "indatus/trucker": "dev-master"
 	},
+    "require-dev": {
+        "way/generators": "~2.0"
+    },
 	"autoload": {
 		"classmap": [
 			"app/commands",
@@ -24,6 +39,7 @@
 		],
 		"post-update-cmd": [
 			"php artisan clear-compiled",
+            "php artisan ide-helper:generate",
 			"php artisan optimize"
 		],
 		"post-create-project-cmd": [

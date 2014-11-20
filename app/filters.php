@@ -48,11 +48,45 @@ Route::filter('auth', function()
 	}
 });
 
+// Only authenticated users will be able to access routes that begins with
+// 'admin'. Ex: 'admin/posts', 'admin/categories'.
+//Route::when('admin*', 'auth');
 
-Route::filter('auth.basic', function()
+// Entrust Filter
+Entrust::routeNeedsRole('admin*', 'Admin', function () {
+    return Redirect::guest('users/login');
+});
+
+// Only users with roles that have the 'manage_posts' permission will
+// be able to access any route within admin/post.
+Entrust::routeNeedsPermission( 'admin/post*', 'manage_posts' );
+// If a user has `manage_posts`, `manage_comments` or both they will have access.
+//Entrust::routeNeedsPermission( 'admin/post*', array('manage_posts','manage_comments'), null, false );
+
+//---------------------------------------------------------------------------------------------------------------------------------------
+
+// Only owners will have access to routes within admin/advanced
+//Entrust::routeNeedsRole( 'admin/advanced*', 'Owner' );
+Entrust::routeNeedsRole( 'admin/advanced*', 'Owner', Redirect::to('/home') );
+// If a user is a member of `Owner`, `Writer` or both they will have access.
+//Entrust::routeNeedsRole( 'admin/advanced*', array('Owner','Writer'), null, false );
+
+//---------------------------------------------------------------------------------------------------------------------------------------
+
+// Optionally the second parameter can be an array of permissions or roles.
+// User would need to match all roles or permissions for that route.
+Entrust::routeNeedsPermission( 'admin/post*', array('manage_posts','manage_comments') );
+
+//---------------------------------------------------------------------------------------------------------------------------------------
+Entrust::routeNeedsRole( 'admin/advanced*', array('Owner','Writer') );
+// If a user is a member of `Owner`, `Writer` or both, or user has `manage_posts`, `manage_comments` they will have access.
+// You can set the 4th parameter to true then user must be member of Role and must has Permission.
+//Entrust::routeNeedsRoleOrPermission( 'admin/advanced*', array('Owner','Writer'), array('manage_posts','manage_comments'), null, false);
+
+/*Route::filter('auth.basic', function()
 {
 	return Auth::basic();
-});
+});*/
 
 /*
 |--------------------------------------------------------------------------
