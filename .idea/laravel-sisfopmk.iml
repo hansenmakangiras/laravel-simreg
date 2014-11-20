@@ -40,7 +40,6 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/cviebrock/eloquent-sluggable" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/d11wtq/boris" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/davejamesmiller/laravel-breadcrumbs" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/cache" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/collections" />
@@ -111,7 +110,6 @@
           <root url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />
           <root url="file://$MODULE_DIR$/vendor/greggilbert/recaptcha" />
           <root url="file://$MODULE_DIR$/vendor/stack/builder" />
-          <root url="file://$MODULE_DIR$/vendor/davejamesmiller/laravel-breadcrumbs" />
           <root url="file://$MODULE_DIR$/vendor/symfony/console" />
           <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
           <root url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
@@ -172,7 +170,6 @@
           <root url="file://$MODULE_DIR$/vendor/ircmaxell/password-compat" />
           <root url="file://$MODULE_DIR$/vendor/greggilbert/recaptcha" />
           <root url="file://$MODULE_DIR$/vendor/stack/builder" />
-          <root url="file://$MODULE_DIR$/vendor/davejamesmiller/laravel-breadcrumbs" />
           <root url="file://$MODULE_DIR$/vendor/symfony/console" />
           <root url="file://$MODULE_DIR$/vendor/symfony/translation" />
           <root url="file://$MODULE_DIR$/vendor/symfony/event-dispatcher" />
@@ -221,6 +218,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="sass-stdlib" level="application" />
+    <orderEntry type="library" name="Node.js v0.10.33 Core Modules" level="application" />
   </component>
 </module>
 

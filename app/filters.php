@@ -50,7 +50,7 @@ Route::filter('auth', function()
 
 // Only authenticated users will be able to access routes that begins with
 // 'admin'. Ex: 'admin/posts', 'admin/categories'.
-//Route::when('admin*', 'auth');
+Route::when('admin*', 'auth');
 
 // Entrust Filter
 Entrust::routeNeedsRole('admin*', 'Admin', function () {
@@ -83,10 +83,10 @@ Entrust::routeNeedsRole( 'admin/advanced*', array('Owner','Writer') );
 // You can set the 4th parameter to true then user must be member of Role and must has Permission.
 //Entrust::routeNeedsRoleOrPermission( 'admin/advanced*', array('Owner','Writer'), array('manage_posts','manage_comments'), null, false);
 
-/*Route::filter('auth.basic', function()
+Route::filter('auth.basic', function()
 {
 	return Auth::basic();
-});*/
+});
 
 /*
 |--------------------------------------------------------------------------
