@@ -13,7 +13,7 @@
                                             Profit</p>
                                     </a>
                                 </div>
-                                <div class="btn-box-row row-fluid">
+                                <div class="btn-box-row row-flu id">
                                     <div class="span8">
                                         <div class="row-fluid">
                                             <div class="span12">

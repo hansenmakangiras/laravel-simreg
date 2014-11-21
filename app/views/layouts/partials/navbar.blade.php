@@ -35,7 +35,7 @@
                             <li><a href="#">Ubah Profil</a></li>
                             <li><a href="#">Pengaturan Akun</a></li>
                             <li class="divider"></li>
-                            <li><a href="{{{ URL::to('/users/logout') }}}">Keluar</a></li>
+                            <li><a href="{{{ URL::to('users/logout') }}}">Keluar</a></li>
                         </ul>
                     </li>
                 </ul>

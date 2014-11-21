@@ -9,7 +9,15 @@
         <div class="container">
             <div class="row">
                 @include('layouts.partials.sidebar')
-                @include('layouts.partials.content')
+                {{--@include('layouts.partials.content')--}}
+                <div class="span9">
+                    <div class="content">
+                        @if (Session::has('message'))
+                            <p class="alert">{{ Session::get('message') }}</p>
+                        @endif
+                        @yield('content')
+                    </div>
+                </div>
             </div>
         </div>
     </div>

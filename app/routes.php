@@ -12,7 +12,7 @@
 */
 //Route::get('/','HomeController@showWelcome');
 Route::get('/', function () {
-    return View::make('admin.default');
+    return View::make('admin.dashboard');
 });
 
 Route::get('post','PostController@show');
