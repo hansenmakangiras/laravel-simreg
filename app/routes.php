@@ -14,6 +14,7 @@
 Route::get('/', function () {
     return View::make('admin.default');
 });
+
 Route::get('post','PostController@show');
 
 Route::get('post/listing',array('uses' => 'PostController@listing', 'as' => 'post.listing'));

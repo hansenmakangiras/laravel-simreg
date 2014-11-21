@@ -193,7 +193,6 @@ class UsersController extends Controller
     public function logout()
     {
         Confide::logout();
-
         return Redirect::to('/');
     }
 }

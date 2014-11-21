@@ -16,26 +16,26 @@
                             </button>
                         </form>
                         <ul class="nav pull-right">
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
+                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Frontend
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Item No. 1</a></li>
-                                    <li><a href="#">Don't Click</a></li>
+                                    <li><a href="#">Lihat Web</a></li>
+                                    <li><a href="#">Kirim Email</a></li>
                                     <li class="divider"></li>
-                                    <li class="nav-header">Example Header</li>
-                                    <li><a href="#">A Separated link</a></li>
+                                    <li class="nav-header">Developer</li>
+                                    <li><a href="#">About Developer</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Support </a></li>
+                            <li><a href="#">Dukungan </a></li>
                             <li class="nav-user dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <img src="{{asset('assets/images/user.png')}}" class="nav-avatar" />
                             <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Your Profile</a></li>
-                            <li><a href="#">Edit Profile</a></li>
-                            <li><a href="#">Account Settings</a></li>
+                            <li><a href="#">Profil Anda</a></li>
+                            <li><a href="#">Ubah Profil</a></li>
+                            <li><a href="#">Pengaturan Akun</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">Logout</a></li>
+                            <li><a href="{{{ URL::to('/users/logout') }}}">Keluar</a></li>
                         </ul>
                     </li>
                 </ul>
