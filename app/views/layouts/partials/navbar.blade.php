@@ -6,7 +6,7 @@
                     <div class="nav-collapse collapse navbar-inverse-collapse">
                         <ul class="nav nav-icons">
                             <li class="active"><a href="{{ URL::to('pages/message') }}"><i class="icon-envelope"></i></a></li>
-                            <li><a href="{{ URL::to('frontend/web') }}"><i class="icon-eye-open"></i></a></li>
+                            <li><a href="{{ URL::to('site/home') }}"><i class="icon-eye-open"></i></a></li>
                             <li><a href="{{ URL::to('report/all') }}"><i class="icon-bar-chart"></i></a></li>
                         </ul>
                         <form class="navbar-search pull-left input-append" action="#">
@@ -19,7 +19,7 @@
                             <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Frontend
                                 <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="{{ URL::to('frontend/web') }}">Lihat Web</a></li>
+                                    <li><a href="{{ URL::to('site/home') }}">Lihat Web</a></li>
                                     <li><a href="{{ URL::to('pages/sentemail') }}">Kirim Email</a></li>
                                     <li class="divider"></li>
                                     <li class="nav-header">Developer</li>

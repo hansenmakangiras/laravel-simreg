@@ -5,107 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4dcd0237-bfd4-40a7-bf65-07cd37b8fe3b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/fonts/Simple-Line-Icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/fonts/Simple-Line-Icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/fonts/Simple-Line-Icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/amazon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/apple-touch-icon-ipad-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/apple-touch-icon-ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/apple-touch-icon-iphone-retina.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/apple-touch-icon-iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/bill.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/curb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/dan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/elance-odesk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/eric.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/favicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/hero-img.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/payoneer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/ramil.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/s1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/s2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/s3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/s4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/s5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/s6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/AdminBlogsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/AdminCategoriesController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/AdminCommentsController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/AdminController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/AdminDashboardController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/AdminRolesController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/admin/AdminUsersController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/AuthorizedController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/CommentPresenter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/PostPresenter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/fonts/Simple-Line-Icons.dev.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/fonts/Simple-Line-Icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/library/Andrew13/Helpers/String.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/user/UserController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/presenters/UserPresenter.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/after_effects.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/css/animate.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/button.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/js/drifolio.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/flash.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/general.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/illustrator.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/indesign.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/js/jquery.easing.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/js/jquery.jribbble-1.0.1.ugly.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/js/jquery.nicescroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/blogs/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/categories/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/comments/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/companies/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/roles/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/users/messages.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/admin/pages/newsfeed.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/photoshop.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/css/preloader.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/css/responsive.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/css/simple-line-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/site.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/blogs/table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/categories/table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/comments/table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/companies/table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/roles/table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/users/table.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/blogs/title.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/categories/title.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/comments/title.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/companies/title.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/roles/title.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/admin/users/title.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/img/trianglify-background.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/lang/en/user/user.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/frontend/js/wow.min.js" />
-      <change type="DELETED" beforePath="E:\Webserver\Web\laravel-simreg\app\views\hello.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\Webserver\Web\laravel-simreg\app\views\layout.blade.php" afterPath="" />
-      <change type="DELETED" beforePath="E:\Webserver\Web\laravel-simreg\app\views\users.blade.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/.htaccess" afterPath="$PROJECT_DIR$/public/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/app/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/SiteController.php" afterPath="$PROJECT_DIR$/app/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_ide_helper.php" afterPath="$PROJECT_DIR$/_ide_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/app.php" afterPath="$PROJECT_DIR$/app/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/local/app.php" afterPath="$PROJECT_DIR$/app/config/local/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/dashboard.blade.php" afterPath="$PROJECT_DIR$/app/views/admin/dashboard.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/filters.php" afterPath="$PROJECT_DIR$/app/filters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/login/navbar.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/login/navbar.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/navbar.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/partials/navbar.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes.php" afterPath="$PROJECT_DIR$/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/partials/sidebar.blade.php" afterPath="$PROJECT_DIR$/app/views/layouts/partials/sidebar.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\css\animate.css" afterPath="$PROJECT_DIR$/public/site/css/animate.css" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\css\preloader.css" afterPath="$PROJECT_DIR$/public/site/css/preloader.css" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\css\responsive.css" afterPath="$PROJECT_DIR$/public/site/css/responsive.css" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\css\simple-line-icons.css" afterPath="$PROJECT_DIR$/public/site/css/simple-line-icons.css" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\css\style.css" afterPath="$PROJECT_DIR$/public/site/css/style.css" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\fonts\Simple-Line-Icons.dev.svg" afterPath="$PROJECT_DIR$/public/site/fonts/Simple-Line-Icons.dev.svg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\fonts\Simple-Line-Icons.eot" afterPath="$PROJECT_DIR$/public/site/fonts/Simple-Line-Icons.eot" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\fonts\Simple-Line-Icons.svg" afterPath="$PROJECT_DIR$/public/site/fonts/Simple-Line-Icons.svg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\fonts\Simple-Line-Icons.ttf" afterPath="$PROJECT_DIR$/public/site/fonts/Simple-Line-Icons.ttf" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\fonts\Simple-Line-Icons.woff" afterPath="$PROJECT_DIR$/public/site/fonts/Simple-Line-Icons.woff" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\after_effects.svg" afterPath="$PROJECT_DIR$/public/site/img/after_effects.svg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\amazon.png" afterPath="$PROJECT_DIR$/public/site/img/amazon.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\apple-touch-icon-ipad-retina.png" afterPath="$PROJECT_DIR$/public/site/img/apple-touch-icon-ipad-retina.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\apple-touch-icon-ipad.png" afterPath="$PROJECT_DIR$/public/site/img/apple-touch-icon-ipad.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\apple-touch-icon-iphone-retina.png" afterPath="$PROJECT_DIR$/public/site/img/apple-touch-icon-iphone-retina.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\apple-touch-icon-iphone.png" afterPath="$PROJECT_DIR$/public/site/img/apple-touch-icon-iphone.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\bill.jpg" afterPath="$PROJECT_DIR$/public/site/img/bill.jpg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\curb.png" afterPath="$PROJECT_DIR$/public/site/img/curb.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\dan.jpg" afterPath="$PROJECT_DIR$/public/site/img/dan.jpg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\elance-odesk.png" afterPath="$PROJECT_DIR$/public/site/img/elance-odesk.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\eric.png" afterPath="$PROJECT_DIR$/public/site/img/eric.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\favicon.png" afterPath="$PROJECT_DIR$/public/site/img/favicon.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\flash.svg" afterPath="$PROJECT_DIR$/public/site/img/flash.svg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\hero-img.png" afterPath="$PROJECT_DIR$/public/site/img/hero-img.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\icon.png" afterPath="$PROJECT_DIR$/public/site/img/icon.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\illustrator.svg" afterPath="$PROJECT_DIR$/public/site/img/illustrator.svg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\indesign.svg" afterPath="$PROJECT_DIR$/public/site/img/indesign.svg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\payoneer.png" afterPath="$PROJECT_DIR$/public/site/img/payoneer.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\photoshop.svg" afterPath="$PROJECT_DIR$/public/site/img/photoshop.svg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\ramil.jpg" afterPath="$PROJECT_DIR$/public/site/img/ramil.jpg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\s1.png" afterPath="$PROJECT_DIR$/public/site/img/s1.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\s2.png" afterPath="$PROJECT_DIR$/public/site/img/s2.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\s3.png" afterPath="$PROJECT_DIR$/public/site/img/s3.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\s4.png" afterPath="$PROJECT_DIR$/public/site/img/s4.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\s5.png" afterPath="$PROJECT_DIR$/public/site/img/s5.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\s6.png" afterPath="$PROJECT_DIR$/public/site/img/s6.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\trianglify-background.svg" afterPath="$PROJECT_DIR$/public/site/img/trianglify-background.svg" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\img\user.png" afterPath="$PROJECT_DIR$/public/site/img/user.png" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\index.html" afterPath="$PROJECT_DIR$/public/site/index.html" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\js\drifolio.js" afterPath="$PROJECT_DIR$/public/site/js/drifolio.js" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\js\jquery.easing.min.js" afterPath="$PROJECT_DIR$/public/site/js/jquery.easing.min.js" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\js\jquery.jribbble-1.0.1.ugly.js" afterPath="$PROJECT_DIR$/public/site/js/jquery.jribbble-1.0.1.ugly.js" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\js\jquery.nicescroll.min.js" afterPath="$PROJECT_DIR$/public/site/js/jquery.nicescroll.min.js" />
+      <change type="MOVED" beforePath="E:\Webserver\Web\laravel-simreg\public\frontend\js\wow.min.js" afterPath="$PROJECT_DIR$/public/site/js/wow.min.js" />
     </list>
     <ignored path="laravel-simreg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -134,11 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.31161973" vertical-offset="1285" max-vertical-offset="3179">
-              <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+            <state vertical-scroll-proportion="-10.076923" vertical-offset="1285" max-vertical-offset="3179">
+              <caret line="91" column="3" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
@@ -146,53 +91,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+      <file leaf-file-name="navbar.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.3076925" vertical-offset="235" max-vertical-offset="1207">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.615385" vertical-offset="3278" max-vertical-offset="3910">
-              <caret line="206" column="65" selection-start-line="206" selection-start-column="65" selection-end-line="206" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/user/UserController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65384614" vertical-offset="408" max-vertical-offset="6443">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-              <folding>
-                <element signature="e#6#92#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/AdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
-              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="578">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.43201378" vertical-offset="55" max-vertical-offset="850">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -247,7 +150,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/partials/content.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/base.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/partials/navbar.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/login/navbar.blade.php" />
         <option value="$PROJECT_DIR$/app/views/admin/pages/newsfeed.blade.php" />
         <option value="$PROJECT_DIR$/app/views/layouts/partials/sidebar.blade.php" />
@@ -262,6 +164,7 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/app/config/app.php" />
         <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/partials/navbar.blade.php" />
       </list>
     </option>
   </component>
@@ -438,28 +341,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-sisfopmk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel-simreg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -479,6 +360,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-sisfopmk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-simreg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -624,13 +527,20 @@
       <option name="project" value="LOCAL" />
       <updated>1416598217548</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Changes">
+      <created>1417242521929</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1417242521929</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -638,7 +548,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18887262" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22786885" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -647,7 +557,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295082" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -883,17 +792,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38848922" vertical-offset="294" max-vertical-offset="850">
-          <caret line="30" column="79" selection-start-line="30" selection-start-column="79" selection-end-line="30" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/admin/pages/newsfeed.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.55985916" vertical-offset="5972" max-vertical-offset="6613">
           <caret line="370" column="54" selection-start-line="370" selection-start-column="54" selection-end-line="370" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -915,6 +818,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28399312" vertical-offset="73" max-vertical-offset="680">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -933,14 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.2237523" vertical-offset="1785" max-vertical-offset="3468">
@@ -952,14 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.384615" vertical-offset="102" max-vertical-offset="2584">
           <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="578">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -1008,32 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.3076925" vertical-offset="235" max-vertical-offset="1207">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.615385" vertical-offset="3278" max-vertical-offset="3910">
-          <caret line="206" column="65" selection-start-line="206" selection-start-column="65" selection-end-line="206" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/user/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65384614" vertical-offset="408" max-vertical-offset="6443">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <element signature="e#6#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/front.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="581">
@@ -1044,11 +906,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31161973" vertical-offset="1285" max-vertical-offset="3179">
-          <caret line="86" column="41" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+        <state vertical-scroll-proportion="-10.076923" vertical-offset="1285" max-vertical-offset="3179">
+          <caret line="91" column="3" selection-start-line="91" selection-start-column="3" selection-end-line="91" selection-end-column="3" />
           <folding>
             <element signature="e#7#392#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6729776" vertical-offset="0" max-vertical-offset="581">
+          <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35111877" vertical-offset="0" max-vertical-offset="581">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/user/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26333907" vertical-offset="408" max-vertical-offset="6443">
+          <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+          <folding>
+            <element signature="e#6#92#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32702237" vertical-offset="235" max-vertical-offset="1207">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38554215" vertical-offset="3278" max-vertical-offset="3910">
+          <caret line="206" column="65" selection-start-line="206" selection-start-column="65" selection-end-line="206" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/partials/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43201378" vertical-offset="55" max-vertical-offset="850">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
