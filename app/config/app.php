@@ -121,6 +121,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
+
+        /* Additional Providers */
         'Way\Generators\GeneratorsServiceProvider',
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
         'Zizaco\Confide\ServiceProvider',
@@ -133,6 +135,10 @@ return array(
         'DaveJamesMiller\Breadcrumbs\ServiceProvider',
         'Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider',
         'Orangehill\Iseed\IseedServiceProvider',
+        'yajra\Datatables\DatatablesServiceProvider', // Datatables
+        'Creolab\LaravelModules\ServiceProvider',
+        'Artdarek\OAuth\OAuthServiceProvider',
+        //'Barryvdh\Debugbar\ServiceProvider', // Debugger
 	),
 
 	/*
@@ -199,12 +205,19 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
+
+        /* Additional Aliases */
         'Confide'           => 'Zizaco\Confide\Facade',
         'Entrust'           => 'Zizaco\Entrust\EntrustFacade',
-        'Datatable' => 'Chumper\Datatable\Facades\DatatableFacade',
-        'Excel' => 'Maatwebsite\Excel\Facades\Excel',
-        'PDF' => 'Barryvdh\DomPDF\Facade',
-        'Breadcrumbs' => 'DaveJamesMiller\Breadcrumbs\Facade',
+        'Datatable'         => 'Chumper\Datatable\Facades\DatatableFacade',
+        'Excel'             => 'Maatwebsite\Excel\Facades\Excel',
+        'PDF'               => 'Barryvdh\DomPDF\Facade',
+        'Breadcrumbs'       => 'DaveJamesMiller\Breadcrumbs\Facade',
+        'Debugbar'          => 'Barryvdh\Debugbar\Facade',
+        'String'            => 'Andrew13\Helpers\String', // String
+        'Datatables'        => 'yajra\Datatables\Datatables', // DataTables
+        'Carbon'          => 'Carbon\Carbon', // Carbon
+        'OAuth' => 'Artdarek\OAuth\Facade\OAuth',
 
 	),
 

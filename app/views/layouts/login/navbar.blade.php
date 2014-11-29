@@ -4,7 +4,7 @@
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
 					<i class="icon-reorder shaded"></i>
 				</a>
-			  	<a class="brand" href="index.html">
+			  	<a class="brand" href="{{ URL::to('/') }}">
 			  		PMK LP3I Makassar 2014
 			  	</a>
 				<div class="nav-collapse collapse navbar-inverse-collapse">

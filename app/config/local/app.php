@@ -15,4 +15,13 @@ return array(
 
 	'debug' => true,
 
+    'url' => 'http://sim-pmk.local',
+
+    'timezone' => 'UTC',
+
+    'providers' => array(
+        /* Uncomment for use in development */
+        //'Barryvdh\Debugbar\ServiceProvider', // Debugger
+    )
+
 );

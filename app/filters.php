@@ -43,12 +43,70 @@ Route::filter('auth', function()
 		}
 		else
 		{
-			return Redirect::guest('login');
+			return Redirect::guest('users/login');
 		}
 	}
 });
 
-// Only authenticated users will be able to access routes that begins with
+Route::filter('auth.basic', function()
+{
+	return Auth::basic();
+});
+
+/*
+|--------------------------------------------------------------------------
+| Guest Filter
+|--------------------------------------------------------------------------
+|
+| The "guest" filter is the counterpart of the authentication filters as
+| it simply checks that the current user is not logged in. A redirect
+| response will be issued if they are, which you may freely change.
+|
+*/
+
+Route::filter('guest', function()
+{
+	if (Auth::check()) return Redirect::to('users/login/');
+});
+
+/*
+|--------------------------------------------------------------------------
+| Role Permissions
+|--------------------------------------------------------------------------
+|
+| Access filters based on roles.
+|
+*/
+
+// Check for role on all admin routes, minimum admin level
+Entrust::routeNeedsRole( 'admin*', array('admin'), Redirect::to('/') );
+
+// Check for permissions on admin actions
+Entrust::routeNeedsPermission( 'admin/blogs*', 'manage_blogs', Redirect::to('/admin') );
+Entrust::routeNeedsPermission( 'admin/comments*', 'manage_comments', Redirect::to('/admin') );
+Entrust::routeNeedsPermission( 'admin/users*', 'manage_users', Redirect::to('/admin') );
+Entrust::routeNeedsPermission( 'admin/roles*', 'manage_roles', Redirect::to('/admin') );
+
+/*
+|--------------------------------------------------------------------------
+| CSRF Protection Filter
+|--------------------------------------------------------------------------
+|
+| The CSRF filter is responsible for protecting your application against
+| cross-site request forgery attacks. If this special token in a user
+| session does not match the one given in this request, we'll bail.
+|
+*/
+
+Route::filter('csrf', function()
+{
+	if (Session::getToken() != Input::get('csrf_token') && Session::getToken() != Input::get('_token'))
+	{
+		throw new Illuminate\Session\TokenMismatchException;
+	}
+});
+
+/*// Only authenticated users will be able to access routes that begins with
 // 'admin'. Ex: 'admin/posts', 'admin/categories'.
 Route::when('admin*', 'auth');
 
@@ -81,44 +139,5 @@ Entrust::routeNeedsPermission( 'admin/post*', array('manage_posts','manage_comme
 Entrust::routeNeedsRole( 'admin/advanced*', array('Owner','Writer') );
 // If a user is a member of `Owner`, `Writer` or both, or user has `manage_posts`, `manage_comments` they will have access.
 // You can set the 4th parameter to true then user must be member of Role and must has Permission.
-//Entrust::routeNeedsRoleOrPermission( 'admin/advanced*', array('Owner','Writer'), array('manage_posts','manage_comments'), null, false);
+//Entrust::routeNeedsRoleOrPermission( 'admin/advanced*', array('Owner','Writer'), array('manage_posts','manage_comments'), null, false);*/
 
-Route::filter('auth.basic', function()
-{
-	return Auth::basic();
-});
-
-/*
-|--------------------------------------------------------------------------
-| Guest Filter
-|--------------------------------------------------------------------------
-|
-| The "guest" filter is the counterpart of the authentication filters as
-| it simply checks that the current user is not logged in. A redirect
-| response will be issued if they are, which you may freely change.
-|
-*/
-
-Route::filter('guest', function()
-{
-	if (Auth::check()) return Redirect::to('/');
-});
-
-/*
-|--------------------------------------------------------------------------
-| CSRF Protection Filter
-|--------------------------------------------------------------------------
-|
-| The CSRF filter is responsible for protecting your application against
-| cross-site request forgery attacks. If this special token in a user
-| session does not match the one given in this request, we'll bail.
-|
-*/
-
-Route::filter('csrf', function()
-{
-	if (Session::token() != Input::get('_token'))
-	{
-		throw new Illuminate\Session\TokenMismatchException;
-	}
-});

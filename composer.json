@@ -1,9 +1,15 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "hansenmakangiras/laravel-simreg",
+	"description": "Laravel Simreg PMK App",
+	"keywords": ["simreg", "laravel","PMK"],
 	"license": "MIT",
 	"type": "project",
+    "authors": [
+        {
+            "name": "Hansen Makangiras",
+            "homepage": "http://www.github.com/hansenmakangiras"
+        }
+    ],
 	"require": {
 		"laravel/framework": "4.2.*",
 		"barryvdh/laravel-ide-helper": "~1.11",
@@ -17,9 +23,14 @@
 		"davejamesmiller/laravel-breadcrumbs": "~2.3.0",
         "xethron/migrations-generator": "dev-master",
         "orangehill/iseed": "dev-master",
-        "indatus/trucker": "dev-master"
+        "indatus/trucker": "dev-master",
+        "caouecs/laravel4-lang": "dev-master",
+        "creolab/laravel-modules": "dev-master",
+        "artdarek/oauth-4-laravel": "dev-master",
+        "yajra/laravel-datatables-oracle": "*"
 	},
     "require-dev": {
+        "barryvdh/laravel-debugbar": "1.*",
         "way/generators": "~2.0"
     },
 	"autoload": {
@@ -29,7 +40,8 @@
 			"app/models",
 			"app/database/migrations",
 			"app/database/seeds",
-			"app/tests/TestCase.php"
+			"app/tests/TestCase.php",
+            "app/modules"
 		]
 	},
 	"scripts": {

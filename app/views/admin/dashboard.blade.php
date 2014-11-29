@@ -17,17 +17,17 @@
                         <div class="span8">
                             <div class="row-fluid">
                                 <div class="span12">
-                                    <a href="#" class="btn-box small span4"><i class="icon-envelope"></i><b>Messages</b>
-                                    </a><a href="#" class="btn-box small span4"><i class="icon-group"></i><b>Clients</b>
-                                    </a><a href="#" class="btn-box small span4"><i class="icon-exchange"></i><b>Expenses</b>
+                                    <a href="#" class="btn-box small span4"><i class="icon-envelope"></i><b>Berita</b>
+                                    </a><a href="#" class="btn-box small span4"><i class="icon-group"></i><b>Informasi</b>
+                                    </a><a href="#" class="btn-box small span4"><i class="icon-exchange"></i><b>Anggota</b>
                                     </a>
                                 </div>
                             </div>
                             <div class="row-fluid">
                                 <div class="span12">
-                                    <a href="#" class="btn-box small span4"><i class="icon-save"></i><b>Total Sales</b>
-                                    </a><a href="#" class="btn-box small span4"><i class="icon-bullhorn"></i><b>Social Feed</b>
-                                    </a><a href="#" class="btn-box small span4"><i class="icon-sort-down"></i><b>Bounce Rate</b> </a>
+                                    <a href="#" class="btn-box small span4"><i class="icon-save"></i><b>Ultah</b>
+                                    </a><a href="#" class="btn-box small span4"><i class="icon-bullhorn"></i><b>Alumni</b>
+                                    </a><a href="#" class="btn-box small span4"><i class="icon-sort-down"></i><b>Donasi</b> </a>
                                 </div>
                             </div>
                         </div>

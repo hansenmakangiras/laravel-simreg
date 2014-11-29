@@ -25,6 +25,13 @@ class SiteController extends BaseController
             ->with('flash_error', 'Your Username/Password combination was incorrect')
             ->withInput();
     }
+    Public function getIndex(){
+        // Get all the blog posts
+        $posts = $this->post->orderBy('created_at', 'DESC')->paginate(10);
+
+        // Show the page
+        return View::make('site/blog/index', compact('posts'));
+    }
 
     public function postRegister()
     {
