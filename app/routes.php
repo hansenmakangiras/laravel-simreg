@@ -84,7 +84,7 @@ Route::group(array('prefix' => 'admin', 'before' => 'auth'), function()
 
 # Route::get('/','HomeController@showWelcome');
 Route::get('/', function () {
-    return View::make('admin.dashboard');
+    return View::make('site.default');
 });
 
 Route::get('/newsfeed', function () {

@@ -27,7 +27,7 @@ class SiteController extends BaseController
     }
     Public function getIndex(){
         // Get all the blog posts
-        $posts = $this->post->orderBy('created_at', 'DESC')->paginate(10);
+        //$posts = $this->post->orderBy('created_at', 'DESC')->paginate(10);
 
         // Show the page
         return View::make('site/blog/index', compact('posts'));
