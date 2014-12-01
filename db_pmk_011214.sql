@@ -14,7 +14,7 @@ MySQL - 5.6.16 : Database - db_pmk
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 CREATE DATABASE /*!32312 IF NOT EXISTS*/`db_pmk` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `db_pmk`;
+USE `dbpmk`;
 
 /*Table structure for table `assigned_roles` */
 

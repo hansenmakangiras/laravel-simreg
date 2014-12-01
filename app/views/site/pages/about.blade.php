@@ -16,11 +16,11 @@
                 <h5>Tools and apps I use everyday:</h5>
 
                 <ul><!-- FAVORITE APP ICONS START -->
-                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="img/photoshop.svg" alt="Photoshop"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="img/illustrator.svg" alt="Illustrator"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="3s" src="img/flash.svg" alt="Adobe Flash"></li>
-                    <li><img class="wow animated bounceInUp" data-wow-duration="4s" src="img/after_effects.svg" alt="After Effects"></li>
-                    <li><img class="wow bounceInUp" data-wow-duration="5s" src="img/indesign.svg" alt="InDesign"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="{{asset('site/img/photoshop.svg')}}" alt="Photoshop"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="{{asset('site/img/illustrator.svg')}}" alt="Illustrator"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="3s" src="{{asset('site/img/flash.svg')}}" alt="Adobe Flash"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="4s" src="{{asset('site/img/after_effects.svg')}}" alt="After Effects"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="5s" src="{{asset('site/img/indesign.svg')}}" alt="InDesign"></li>
                 </ul><!-- FAVORITE APP ICONS END -->
             </div>
         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
@@ -28,5 +28,5 @@
 
         <!-- RIGHT PART OF THE ABOUT SECTION -->
         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
-            <img src="img/user.png" alt="Mamun Srizon">
+            <img src="{{asset('site/img/user.png')}}" alt="Mamun Srizon">
         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->

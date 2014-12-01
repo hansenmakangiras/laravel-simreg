@@ -7,8 +7,43 @@
  *
  * Implements actions regarding user management
  */
-class UsersController extends Controller
+class UsersController extends BaseController
 {
+
+    /**
+     * User Model
+     * @var User
+     */
+    protected $user;
+
+    /**
+     * Inject the models.
+     * @param User $user
+     */
+    public function __construct(User $user)
+    {
+        parent::__construct();
+        $this->user = $user;
+    }
+
+    /**
+     * Users settings page
+     *
+     * @return View
+     */
+    public function getIndex()
+    {
+        list($user,$redirect) = $this->user->checkAuthAndRedirect('user');
+        if($redirect){return $redirect;}
+
+        // Show login page
+        $user = Auth::user();
+        if(!empty($user->id)){
+            return Redirect::to('/admin');
+        }
+
+        return View::make('site/user/login');
+    }
 
     /**
      * Displays the form for account creation
@@ -17,7 +52,7 @@ class UsersController extends Controller
      */
     public function create()
     {
-        return View::make(Config::get('confide::signup_form'));
+        return View::make('site/user/create');
     }
 
     /**
@@ -31,18 +66,15 @@ class UsersController extends Controller
         $user = $repo->signup(Input::all());
 
         if ($user->id) {
-            if (Config::get('confide::signup_email')) {
-                Mail::queueOn(
-                    Config::get('confide::email_queue'),
-                    Config::get('confide::email_account_confirmation'),
-                    compact('user'),
-                    function ($message) use ($user) {
-                        $message
-                            ->to($user->email, $user->username)
-                            ->subject(Lang::get('confide::confide.email.account_confirmation.subject'));
-                    }
-                );
-            }
+            Mail::send(
+                Config::get('confide::email_account_confirmation'),
+                compact('user'),
+                function ($message) use ($user) {
+                    $message
+                        ->to($user->email, $user->username)
+                        ->subject(Lang::get('confide::confide.email.account_confirmation.subject'));
+                }
+            );
 
             return Redirect::action('UsersController@login')
                 ->with('notice', Lang::get('confide::confide.alerts.account_created'));
@@ -51,7 +83,7 @@ class UsersController extends Controller
 
             return Redirect::action('UsersController@create')
                 ->withInput(Input::except('password'))
-                ->with('error', $error);
+                ->withErrors($user->errors);
         }
     }
 
@@ -139,7 +171,7 @@ class UsersController extends Controller
                 ->with('notice', $notice_msg);
         } else {
             $error_msg = Lang::get('confide::confide.alerts.wrong_password_forgot');
-            return Redirect::action('UsersController@doForgotPassword')
+            return Redirect::to('users/forgot_password')
                 ->withInput()
                 ->with('error', $error_msg);
         }
@@ -154,8 +186,8 @@ class UsersController extends Controller
      */
     public function resetPassword($token)
     {
-        return View::make(Config::get('confide::reset_password_form'))
-                ->with('token', $token);
+        return View::make('site.user.reset')
+            ->with('token', $token);
     }
 
     /**
@@ -179,7 +211,7 @@ class UsersController extends Controller
                 ->with('notice', $notice_msg);
         } else {
             $error_msg = Lang::get('confide::confide.alerts.wrong_password_reset');
-            return Redirect::action('UsersController@resetPassword', array('token'=>$input['token']))
+            return Redirect::action('UsersController@reset_password', array('token'=>$input['token']))
                 ->withInput()
                 ->with('error', $error_msg);
         }
@@ -193,6 +225,7 @@ class UsersController extends Controller
     public function logout()
     {
         Confide::logout();
+
         return Redirect::to('/');
     }
 }

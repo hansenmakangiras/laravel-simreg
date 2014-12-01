@@ -10,7 +10,7 @@
             <!-- 1ST TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
                 <div class="clientsphoto">
-                    <img src="img/dan.jpg" alt="Dan">
+                    <img src="{{asset('site/img/dan.jpg')}}" alt="Dan">
                 </div>
 
                 <div class="quote">
@@ -25,7 +25,7 @@
             <!-- 2ND TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
                 <div class="clientsphoto">
-                    <img src="img/bill.jpg" alt="Bill">
+                    <img src="{{asset('site/img/bill.jpg')}}" alt="Bill">
                 </div>
 
                 <div class="quote">
@@ -40,7 +40,7 @@
             <!-- 3RD TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
                 <div class="clientsphoto">
-                    <img src="img/eric.png" alt="Eric">
+                    <img src="{{asset('site/img/eric.png')}}" alt="Eric">
                 </div>
 
                 <div class="quote">
@@ -55,7 +55,7 @@
             <!-- 4TH TESTIMONIAL ITEM -->
             <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
                 <div class="clientsphoto">
-                    <img src="img/ramil.jpg" alt="Ramil">
+                    <img src="{{asset('site/img/ramil.jpg')}}" alt="Ramil">
                 </div>
 
                 <div class="quote">

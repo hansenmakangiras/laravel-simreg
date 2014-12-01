@@ -39,7 +39,7 @@
     TESTIMONIAL SECTION START
     =========================== -->
     <div id="testimonials" class="container">
-        @include('site.pages.portfolio')
+        @include('site.pages.testimonials')
     </div><!-- TESTIMONIAL SECTION END -->
 
     @include('site.layouts.partials.footer')
