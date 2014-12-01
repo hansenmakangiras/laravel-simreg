@@ -7,7 +7,7 @@
     <!-- Preloader -->
         <div id="preloader">
             <div id="status">
-                <div class="loadicon icon-moustache wow tada infinite" data-wow-duration="8s"></div>
+                <div class="loadicon icon-moustache wow tada infinite" data-wow-duration="5s"></div>
             </div>
         </div>
     @include('site.layouts.partials.navbar')
