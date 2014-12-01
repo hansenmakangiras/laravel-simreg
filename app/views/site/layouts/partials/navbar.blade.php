@@ -43,6 +43,7 @@
                         <!--don't forget to replace my email address below with yours-->
                         <li><a href="mailto:m@creatrix.us"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
                         <li class="active"><a href=""><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
+                        <li><a href="{{URL::to('users/login')}}"><span class="btnicon icon-user"></span>Login</a></li>
                     </ul>
 
                 </div><!--.nav-collapse -->
