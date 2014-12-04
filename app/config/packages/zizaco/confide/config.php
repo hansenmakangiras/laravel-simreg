@@ -46,7 +46,7 @@ return array(
     |
     |
     */
-    //'login_form' =>             'confide::login',
+    //'login_form' =>           'confide::login',
     'login_form' =>             'site.user.login',
     'signup_form' =>            'confide::signup',
     'forgot_password_form' =>   'confide::forgot_password',

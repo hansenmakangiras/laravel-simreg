@@ -1,7 +1,4 @@
-@extends('layouts.base')
-
-{{-- Web site Title --}}
-@extends('layouts.login.navbar')
+@extends('site.login')
 
 {{-- Content --}}
 @section('content')

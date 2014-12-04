@@ -28,6 +28,7 @@
         "creolab/laravel-modules": "dev-master",
         "artdarek/oauth-4-laravel": "dev-master",
         "yajra/laravel-datatables-oracle": "*"
+
 	},
     "require-dev": {
         "barryvdh/laravel-debugbar": "1.*",
